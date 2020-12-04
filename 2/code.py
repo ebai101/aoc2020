@@ -23,7 +23,7 @@ class Entry:
         print(self.req_char_min, self.req_char_max, self.req_char, self.password, '-', valid)
         return valid
 
-with open('day2.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     count = 0
     for line in f:
         e = Entry(line)
